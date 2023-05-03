@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ВагонДорМаш</title>
+  <link href="css/style.css" rel="stylesheet">
+	<link href="css/lightbox.min.css" rel="stylesheet">
+	<link rel="icon" type="images/x icon" href="img/icon/favicon.png">
+</head>
+<body>
+<div class="wrapper">
+  <div class="content">
+    <header class="header">
+      <div class="header__container container">
+        <div class="header__row">
+         <div class="header__column">
+           <a href="index.html" class="header__logo"><img src="img/logo.png" alt=""></a>
+         </div>
+         <div class="header__column">
+					<div class="header__burger">
+						<span></span>
+					</div>
+					<div class="header__block">
+						<ul class="header__menu">
+							<li><a href="index.html" class="header__list">Главная</a></li>
+							<li><a href="info.html" class="header__list">Услуги</a></li>
+							<li><a href="documents.html" class="header__list">Документы</a></li>
+						</ul>
+						<a href="tel:+78636925080" class="header__item header__item_burger">
+							<img src="img/icon/phone.png" alt="" class="header__phone">
+							<div class="header__number">8 (863) 692-50-80</div>
+						</a>
+					</div>
+         </div>
+         <div class="header__column header__column_none">
+           <a href="tel:+78636925080" class="header__item">
+             <img src="img/icon/phone.png" alt="" class="header__phone">
+             <div class="header__number">8 (863) 692-50-80</div>
+					 </a>
+         </div>
+      </div>
+    </header>
+		<div class="address">
+			<div class="address__container container">
+				<div class="address__body">
+					<div class="address__title">Вагоноремотное депо</div>
+					<div class="address__row">
+						<div class="address__column address__column_mini">
+							<div class="address__label">Адрес:</div>
+						</div>
+						<div class="address__column">
+						<div class="address__text">346901 Ростовская область, г. Новошахтинск, ул. Трамвайная, 39</div>
+						</div>
+					</div>
+					<div class="address__row">
+						<div class="address__column address__column_mini">
+							<div class="address__label">Телефон:</div>
+						</div>
+						<div class="address__column">
+						<div class="address__text"><a href="tel:+7 (863) 692-50-80">+7 (863) 692-50-80</a></div>
+						</div>
+					</div>
+					<div class="address__row">
+						<div class="address__column address__column_mini">
+							<div class="address__label">E-mail:</div>
+						</div>
+						<div class="address__column">
+						<div class="address__text">
+							<a href="mailto:vagondormash@yandex.ru">vagondormash@yandex.ru</a>
+							<a href="mailto:vdm_secretary@mail.ru">	vdm_secretary@mail.ru</a>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		<div id="map" class="map"></div>
+	</div>
+	<div class="link">
+		<div class="link__container container">
+			<div class="link__row">
+				<div class="link__arrow"></div>
+				<div class="link__body">
+						<div class="link__link">
+							<a href="qualitySector.html">Сектор по контролю качества и рекламационной работе</a>
+						</div>
+						<div class="link__link">
+							<a href="сustomerSector.html">Производственно технический сектор</a>
+						</div>
+						<div class="link__link">
+							<a href="technicalSector.html">Сектор по работе с клиентами</a>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  <footer class="footer">
+    <div class="footer__container container">
+			<div class="footer__row">
+				<div class="footer__column">
+					<div class="footer__name">© 2013-2023 «ВагонДорМаш»</div>
+					<div class="footer__address">346901, Ростовская область, г. Новошахтинск,ул. Трамвайная, 39</div>
+					<a href="tel:88636925080" class="footer__phone footer-link">Тел.: <span class="footer__color-link">8 (86369) 2 50 80</span></a> 
+					<a href="mailto:vagondormash@yandex.ru" class="footer__mail footer-link">Электронная почта: <span class="footer__color-link">vagondormash@yandex.ru</span></a> 
+					<a href="mailto:vdm_secretary@mail.ru" class="footer__mail footer-link">Электронная почта: <span class="footer__color-link">vdm_secretary@mail.ru</span></a> 
+				</div>
+				<div class="footer__column">
+					<div class="footer__title">Северо-кавказская железная дорога Ст. Несветай</div>
+					<a href="img/map.jpg" data-lightbox="slider" class="footer__image"><img src="img/map.jpg" alt=""></a>
+				</div>
+			</div>
+		</div>
+  </footer>
+</div>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=<ваш API-ключ>&lang=ru_RU"></script>
+<script src="js/main.js"></script>
+<script src="js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
